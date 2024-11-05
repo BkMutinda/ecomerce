@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background: aquamarine;
+    height: 80vh;
+}
+.nav1{
+    background: #d8b041;
+    height: 150px;
+}
+.logo{
+    background: #8a7d5a;
+    color: rgb(18, 19, 18);
+    width: fit-content;
+    padding: 12px 12px;
+    margin: 0px 12px;
+    float: inline-start;
+    margin-top: 10px;
+    line-height: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:  2px solid ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.logo:hover{
+    background: rgb(116, 172, 102);
+    transition: .3s;
+    padding: 6px;
+}
+.span1{
+    margin-left: 10px;
+    color: rgb(217, 217, 223);
+}
+.span2{
+    margin-left: 30px;
+}
+.menu{
+    background: #6b5c33b0;
+    position: relative;
+    margin: auto;
+}
+.menu ul{
+    margin: auto;
+    color: aliceblue;
+    font-family: Helvetica;
+    display: flex;
+    float: inline-end;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: auto;
+    margin-right: 10px;
+    padding: 9px 7px;
+
+
+}.menu ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    border-bottom: 3px solid orangered;
+    color: #fff;
+}
+.menu ul li a:hover{
+    background: rgb(235, 67, 67);
+    font-weight: bold;
+    transition: ease .3s;
+    border-radius: 7px;
+}
+.products{
+    height: 100vh;
+    background: rgb(130, 206, 180);
+    display:flex;
+    grid-template-columns:subgrid ;
+    justify-content: flex-start;
+    padding: 12px 12px;
+
+}
+.div1{
+    background: lawngreen;
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+.div2{
+    background: rgb(148, 231, 64);
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+.div3{
+    background: rgb(197, 231, 163);
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+.div4{
+    background: rgb(148, 167, 129);
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+.div5{
+    background: rgb(127, 146, 108);
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+.div6{
+    background: rgb(140, 143, 137);
+    height: 400px;
+    width: 350px;
+    padding: 12px 12px;
+    margin: 20px 20px;
+}
+
+
+
+
+
